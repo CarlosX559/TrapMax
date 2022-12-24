@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
 * {
     font-family: 'Nunito';
 }
@@ -48,6 +49,7 @@ nav ul li a {
     font-weight: bold;
     font-size: 26px;
 }
+
 .area_slide {
     display: flex !important;
     display: -webkit-flex;
@@ -216,11 +218,13 @@ nav ul li a {
     z-index: 0;
     position: relative;
 }
+
 .container_kit {
     display: flex;
     justify-content: center;
     height: 100%;
 }
+
 .slide-2 {
     display: flex;
     max-width: 1280px;
@@ -234,15 +238,17 @@ nav ul li a {
     position: absolute;
 
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background-color: #155018 !important;
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    width: 15px !important; 
+    width: 15px !important;
     height: 15px !important;
     background: #8DC540 !important;
-  
+
 }
 
 .area_img_kit img {
@@ -323,15 +329,90 @@ nav ul li a {
     text-transform: uppercase;
     font-size: 26px;
     color: #fff;
+    margin: 0px;
 }
 
+.container_cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0px;
+}
 
+.container_cards_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
 
+}
 
+.area_cards_int {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.cards_kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 360px;
+    height: 460px;
+    border: 1px solid #E0FFB5;
+    box-shadow: 23px 21px 56px rgba(0, 0, 0, 0.1);
+    border-radius: 60px 0px 60px;
+    padding: 0px 0px 20px 0px;
+}
 
+.card_1 {
+    margin-left: 48px;
+}
+.cards_kit img {
+    width: 100%;
+    max-width: max-content;
+}
 
+.title_card_kit h2 {
+    font-weight: 400;
+    color: #155018;
+    font-size: 36px;
+    line-height: 34px;
+    margin: 0px 0px 10px 0px;
+}
 
+.price_cards_kit p {
+    color: #787878;
+    font-size: 10px;
+    margin: 0px;
+    font-weight: bold;
+}
 
+.price_cars_kit_final h2 {
+    color: #8DC540;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+}
 
+.btn_purchase_kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 46px;
+    background: #8DC540;
+    border-radius: 20px;
+    margin-top: 10px;
+}
 
+.btn_purchase_kit h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #fff;
+    margin: 0px;
+}
