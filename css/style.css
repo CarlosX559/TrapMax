@@ -367,14 +367,22 @@ nav ul li a {
     box-shadow: 23px 21px 56px rgba(0, 0, 0, 0.1);
     border-radius: 60px 0px 60px;
     padding: 0px 0px 20px 0px;
+    transform: scale3d(1, 1, 1);
+    transition: all ease-in-out 300ms;
+}
+
+.cards_kit:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .card_1 {
     margin-left: 48px;
 }
+
 .cards_kit img {
     width: 100%;
     max-width: max-content;
+    object-fit: contain;
 }
 
 .title_card_kit h2 {
@@ -415,4 +423,32 @@ nav ul li a {
     font-size: 26px;
     color: #fff;
     margin: 0px;
+}
+
+.container_payments {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.container_payments_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 20px 17px 32px rgba(0, 0, 0, 0.1);
+}
+
+.area_payments {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.area_payments img {
+    width: 100%;
+    max-width: max-content;
 }
