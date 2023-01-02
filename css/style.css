@@ -223,6 +223,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+    position: relative;
 }
 
 .slide-2 {
@@ -233,18 +234,18 @@ nav ul li a {
     height: 100%;
 }
 
-.owl-dots {
+.slide-2 .owl-dots {
     width: 100%;
     position: absolute;
     bottom: 200px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
+.slide-2.owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #155018 !important;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.slide-2.owl-theme .owl-dots .owl-dot span {
     width: 15px !important;
     height: 15px !important;
     background: #8DC540 !important;
@@ -478,9 +479,9 @@ nav ul li a {
 
 .area_manual {
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
 }
 
 
@@ -560,7 +561,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
-    margin: 100px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
 }
 
 .container_banner {
@@ -584,7 +585,7 @@ nav ul li a {
     align-items: center;
     background-image: url(../img/vetor_banner.svg);
     width: 100%;
-    max-width: 780px;
+    max-width: 820px;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -592,12 +593,12 @@ nav ul li a {
     z-index: 1;
 }
 .text_banner {
-    max-width: 580px;
+    max-width: 620px;
 }
 .text_banner h2 {
     margin: 0px;
     color: #fff;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
 }
 .text_banner h2 b {
@@ -695,11 +696,108 @@ nav ul li a {
     margin: 0px;
 }
 
+.container_comments {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_comments_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 0px;
+}
+
+.area_comments {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+.comment {
+    background: #EFEFEF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 550px;
+    height: 440px;
+    box-shadow: #8DC540 -20px 20px 0px;
+}
+.comment_int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+.comment img {
+    width: 100%;
+    max-width: max-content;
+}
+
+.title_comment {
+    text-align: center;
+    width: 100%;
+}
+
+.title_comment h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #8DC540;
+    margin: 10px 0px 0px 0px;
+}
+.text_comment {
+    text-align: left;
+    width: 100%;
+    
+}
+.text_comment p {
+    font-weight: 400;
+    font-size: 28px;
+    color: #393939;
+    margin: 0px;
+    padding: 0px 40px;
+    margin-top: 40px;
+}
+.owl-theme .owl-nav {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.owl-next {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+}
+.owl-next:hover, .owl-prev:hover {
+    background-color: transparent !important;
+}
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+}
 
 
+.slide-1 .owl-dots {
+    width: 100%;
+    position: absolute;
+    bottom: 40px !important;
+}
 
+.slide-1.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color:  #FFFFFF!important;
+}
 
+.slide-1.owl-theme .owl-dots .owl-dot span {
+    width: 15px !important;
+    height: 15px !important;
+    background: #D8CDBF !important;
 
-
-
-
+}
