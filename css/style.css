@@ -16,9 +16,11 @@ header {
     width: 100%;
     height: 120px;
 }
+
 a {
     text-decoration: none;
 }
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,7 @@ a {
     max-width: 1440px;
     padding: 0px 20px;
 }
+
 .area_menu_mobile {
     display: none;
 }
@@ -121,6 +124,10 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+}
+
+.img_container_2_responsive {
+    display: none;
 }
 
 .img_container_2 img {
@@ -231,7 +238,7 @@ nav ul li a {
 .container_kit {
     display: flex;
     justify-content: center;
-    height: 105vh;
+    height: 925px;
     background-image: url(../img/bg_slide.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -352,7 +359,11 @@ nav ul li a {
     justify-content: center;
     width: 100%;
     padding: 0px 0px 60px 0px;
-    margin-top: -100px;
+    margin-top: -140px;
+}
+
+.area_img_kit_responsive {
+    display: none;
 }
 
 .container_cards_int {
@@ -488,7 +499,7 @@ nav ul li a {
     font-size: 48px;
     color: #155018;
     font-weight: bold;
-    margin: 60px 0px;
+    margin: 40px 0px;
 }
 
 .area_manual {
@@ -1080,6 +1091,10 @@ footer {
         padding: 60px 0px 60px 0px;
     }
 
+    .area_img_kit_responsive {
+        display: flex;
+    }
+
     .area_img_kit_responsive img {
         max-width: 400px;
         width: 100%;
@@ -1297,6 +1312,7 @@ footer {
     .title_info_footer h2 {
         font-size: 22px;
     }
+
     .area_menu {
         display: none;
     }
@@ -1308,6 +1324,7 @@ footer {
         gap: 5px;
         cursor: pointer;
     }
+
     .area_menu_mobile {
         display: flex;
         display: -webkit-flex;
@@ -1341,6 +1358,7 @@ footer {
         }
 
     }
+
     .area_menu_int_mobile {
         display: flex;
         display: -webkit-flex;
@@ -1350,7 +1368,7 @@ footer {
         max-width: 1440px;
         padding: 0px 20px;
     }
-    
+
     .area_menu_mobile_total {
         display: none;
         transition: top 1s ease;
@@ -1366,10 +1384,12 @@ footer {
         padding: 30px 0px 30px 0px;
         z-index: 999;
     }
+
     nav ul {
         flex-direction: column;
         gap: 20px;
     }
+
     nav ul li {
         font-size: 22px;
         color: #fff;
@@ -1397,6 +1417,10 @@ footer {
 
     .text_banner h2 {
         font-size: 12px;
+    }
+
+    .title_kit h2 {
+        font-size: 22px;
     }
 
     .text_banner {
@@ -1449,15 +1473,16 @@ footer {
         text-transform: uppercase;
         margin: 0px;
     }
+
     .mini_banner_1 {
         height: 585px;
-     
+
     }
-    
+
     .mini_banner_2 {
         height: 585px;
     }
-    
+
     .mini_banner_3 {
         height: 585px;
     }
@@ -1469,9 +1494,11 @@ footer {
     .title_faq h2 {
         font-size: 22px;
     }
+
     .faq_int h2 {
         font-size: 22px;
     }
+
     .aswer_faq h2 {
         font-size: 22px;
     }
