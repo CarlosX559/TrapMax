@@ -54,7 +54,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #155018;
+    color: #fff;
     font-weight: bold;
     font-size: 22px;
 }
@@ -1381,7 +1381,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px 0px 30px 0px;
+        padding: 20px 0px 20px 0px;
         z-index: 999;
     }
 
