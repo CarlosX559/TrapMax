@@ -383,6 +383,7 @@ nav ul li a {
 
 .cards_kit {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
