@@ -1692,11 +1692,12 @@ footer {
     }
 
     .faq_int h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .aswer_faq h2 {
-        font-size: 22px;
+        font-size: 20px;
+        padding: 0px;
     }
 
 }
