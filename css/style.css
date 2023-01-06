@@ -1515,10 +1515,12 @@ footer {
         padding: 20px 20px;
     }
 
-    h2 {
+    .title_2 h2 {
         font-size: 24px;
     }
-
+    .title_armadilha h2 {
+        font-size: 24px;
+    }
     h2,
     p {
         padding: 0px 20px;
@@ -1534,7 +1536,9 @@ footer {
     .faq_int svg {
         width: 40px !important;
     }
-
+    .img_manual img {
+        max-width: 250px;
+    }
     .area_texts_manual_int {
         max-width: 320px;
     }
@@ -1632,12 +1636,12 @@ footer {
     }
 
     .img_container_2_responsive img {
-        max-width: 250px;
+        max-width: 220px;
         width: 100%;
     }
 
     .area_img_kit_responsive img {
-        max-width: 250px;
+        max-width: 220px;
         width: 100%;
     }
 
