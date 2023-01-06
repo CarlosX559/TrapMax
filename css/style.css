@@ -4,6 +4,10 @@
     font-family: 'Inter';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -26,7 +30,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1920px;
     padding: 0px 20px;
 }
 
@@ -63,7 +67,7 @@ nav ul li a {
     display: flex !important;
     display: -webkit-flex;
     width: 100% !important;
-    max-width: 1440px;
+ 
 }
 
 .owl-item {
@@ -142,6 +146,22 @@ nav ul li a {
 .btn_2_mobile {
     display: none;
 }
+
+@keyframes moveBtn {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    100% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+}
+.move_btn {
+    animation: moveBtn 800ms ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    object-fit: contain;
+}
+
 
 .btn_2_desktop {
     display: flex;
@@ -241,7 +261,7 @@ nav ul li a {
     height: 925px;
     background-image: url(../img/bg_slide.svg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: auto;
     z-index: 0;
     position: relative;
@@ -283,6 +303,7 @@ nav ul li a {
     align-items: center;
     height: 100%;
     width: 100%;
+    gap: 20px;
 }
 
 .area_texts_kit {
@@ -1053,6 +1074,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     gap: 60px;
+    padding: 0px 20px;
 }
 
 .info_footer {
@@ -1065,7 +1087,7 @@ footer {
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     margin: 0px 0px 20px 0px;
 }
 
@@ -1084,7 +1106,7 @@ footer {
     margin: 0px;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .security {
@@ -1498,7 +1520,17 @@ footer {
     .text_banner {
         max-width: 250px;
     }
+    .text_comment p {
+        font-size: 14px;
+    }
 
+    .owl-prev {
+        left: 40px;
+    }
+
+    .owl-next {
+        right: 40px;
+    }
     .comment {
         width: 345px;
     }
