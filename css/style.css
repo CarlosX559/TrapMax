@@ -684,6 +684,7 @@ nav ul li a {
     width: 100%;
     max-width: 1300px;
     grid-gap: 35px;
+    padding: 0px 20px;
 }
 
 .mini_banner_1 {
