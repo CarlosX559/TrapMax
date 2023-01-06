@@ -290,7 +290,7 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 620px;
+    max-width: 640px;
     gap: 26px;
     text-align: center;
 }
@@ -766,6 +766,30 @@ nav ul li a {
     align-items: center;
     padding: 20px 0px;
 }
+.area_stars {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+.circle_comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background-color: #8DC540;
+}
+
+.circle_comment h2 {
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.comment_int svg {
+    fill: #8DC540;
+}
 
 .comment img {
     width: 100%;
@@ -813,11 +837,11 @@ nav ul li a {
 
 .text_comment p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     color: #393939;
     margin: 0px;
     padding: 0px 40px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .owl-theme .owl-nav {
@@ -938,7 +962,7 @@ nav ul li a {
     display: flex;
     overflow: hidden;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     max-height: 0px;
     width: 95%;
     max-width: 1000px;
@@ -950,12 +974,54 @@ nav ul li a {
 }
 
 .aswer_faq {
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
 
 .aswer_faq h2 {
     font-weight: 400;
     font-size: 30px;
+    color: #000000;
+    margin: 0px;
+}
+
+.btn_whats {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.cobeli {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+}
+
+.cobeli_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+.text_cobeli {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 520px;
+    text-align: center;
+}
+
+.text_cobeli img {
+    max-width: 80px;
+    width: 100%;
+}
+
+.text_cobeli h2 {
+    font-weight: 400;
+    font-size: 22px;
     color: #000000;
     margin: 0px;
 }
