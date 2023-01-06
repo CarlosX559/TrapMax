@@ -1511,7 +1511,42 @@ footer {
         z-index: 0;
         margin: 0px 0px 60px 0px;
     }
+    .area_left {
+        padding: 20px 20px;
+    }
 
+    h2 {
+        font-size: 24px;
+    }
+
+    h2,
+    p {
+        padding: 0px 20px;
+    }
+
+    .sub_title_2 p {
+        font-size: 16px;
+    }
+
+    .sub_title_2 p b {
+        font-size: 18px;
+    }
+    .faq_int svg {
+        width: 40px !important;
+    }
+
+    .area_texts_manual_int {
+        max-width: 320px;
+    }
+    .number_manual h2 {
+        padding: 0px;
+    }
+    .info_texts {
+        gap: 0px;
+    }
+    .number_info h2 {
+        padding: 0px;
+    }
     .cards_kit {
         max-width: 320px;
     }
@@ -1595,17 +1630,21 @@ footer {
         height: 585px;
 
     }
+
     .img_container_2_responsive img {
         max-width: 250px;
         width: 100%;
     }
+
     .area_img_kit_responsive img {
         max-width: 250px;
         width: 100%;
     }
+
     .area_texts_kit {
         gap: 10px;
     }
+
     .mini_banner_2 {
         height: 585px;
     }
