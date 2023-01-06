@@ -1682,7 +1682,9 @@ footer {
     .mini_banner_3 {
         height: 585px;
     }
-
+    .area_security {
+        gap: 20px;
+    }
     .btn_2_desktop {
         display: none;
     }
