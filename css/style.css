@@ -285,7 +285,9 @@ nav ul li a {
 .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #155018 !important;
 }
-
+.slide-2.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #155018 !important;
+}
 .slide-2.owl-theme .owl-dots .owl-dot span {
     width: 15px !important;
     height: 15px !important;
