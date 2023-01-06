@@ -1553,7 +1553,9 @@ footer {
         font-size: 18px;
     }
     .faq_int svg {
-        width: 40px !important;
+        width: 100%;
+        max-width: max-content;
+        height: 40px !important;
     }
     .img_manual img {
         max-width: 250px;
