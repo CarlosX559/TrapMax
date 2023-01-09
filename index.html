@@ -112,7 +112,10 @@
 
                 <div class="area_container_2">
                     <div class="img_container_2">
-                        <img src="img/img_2.png" alt="" loading="lazy">
+                        <div class="img_2_bg">
+                            <img class="gif" src="img/img_2.png" alt="" loading="lazy">
+                        </div>
+
                         <a href="#kits">
                             <div class="btn_2_desktop move_btn">
                                 <h2>
@@ -142,8 +145,9 @@
                         </div>
 
                         <div class="img_container_2_responsive">
-                            <img class="img_2_desktop" src="img/img_2.png" alt="" loading="lazy">
-                            <img class="img_2_mobile" src="img/img_2_mobile.png" alt="" loading="lazy">
+                            <div class="img_2_bg_mobile">
+                                <img class="gif_mobile" src="img/img_2.png" alt="" loading="lazy">
+                            </div>
                             <div class="btn_2_desktop move_btn">
                                 <h2>
                                     Quero acabar com as moscas
@@ -574,27 +578,29 @@
                             <div class="img_manual">
                                 <img src="img/manual.png" alt="">
                             </div>
-    
+
                             <div class="area_texts_manual">
                                 <div class="area_texts_manual_int">
                                     <div class="number_manual">
                                         <h2>1</h2>
                                     </div>
                                     <div class="texts_manual">
-                                        <p>A mosca é atraída pelo atrativo. Na tigela pode ser adicionada comida de gato,
+                                        <p>A mosca é atraída pelo atrativo. Na tigela pode ser adicionada comida de
+                                            gato,
                                             carne podre, sobras, esterco de animais, etc</p>
                                     </div>
                                 </div>
-    
+
                                 <div class="area_texts_manual_int">
                                     <div class="number_manual">
                                         <h2>2</h2>
                                     </div>
                                     <div class="texts_manual">
-                                        <p>A mosca ao levantar voo, sai na vertical e acaba entrando no funil invertido</p>
+                                        <p>A mosca ao levantar voo, sai na vertical e acaba entrando no funil invertido
+                                        </p>
                                     </div>
                                 </div>
-    
+
                                 <div class="area_texts_manual_int">
                                     <div class="number_manual">
                                         <h2>3</h2>
@@ -604,27 +610,36 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
 
                         <div class="area_moscas">
                             <div class="title_moscas">
-                                <h2><b>Moscas que o Max Trap pode capturar:</b></h2>
+                                <h2><b>Moscas que o TrapMax pode capturar:</b></h2>
                             </div>
                             <img src="img/Traducao.png" alt="">
                         </div>
 
                     </div>
-                   
+
                     <div class="area_right">
 
-                        <iframe width="330" height="650" src="https://www.youtube.com/embed/cdE3323FXaA"
+                        <!--<iframe width="330" height="650" src="https://www.youtube.com/embed/cdE3323FXaA"
                             title="Como usar a Armadilha TrapMax™" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen loading="lazy"></iframe>
+                            allowfullscreen loading="lazy"></iframe>-->
 
 
-                          <img src="img/armadilha_cheia.png" alt="">
+                        <video loading="lazy" width="330" height="650" controls
+                            controlslist="nodownload noremoteplayback noplaybackrate foobar">
+                            <source src="video/video_1.mp4" type="video/mp4">
+                        </video>
+
+                        <video loading="lazy" width="330" height="650" controls
+                            controlslist="nodownload noremoteplayback noplaybackrate foobar">
+                            <source src="video/video_2.mp4" type="video/mp4">
+                        </video>
+
                     </div>
 
                 </div>
@@ -649,6 +664,7 @@
                             <h2>
                                 <b>FAÇA COMO NOSSO CLIENTE GUSTAVO</b> E CAPUTRE MAIS MOSCAS!
                             </h2>
+                            <h2>Escute agora o depoimento!</h2>
                         </div>
 
                         <audio controls="controls"
@@ -703,9 +719,13 @@
                             <div class="comment">
                                 <div class="comment_int">
 
-                                    <div class="circle_comment">
-                                        <h2>Rogerio</h2>
+                                    <div class="area_img_comment_1">
+                                        <div class="circle_comment">
+                                            <h2>Rogerio</h2>
+                                        </div>
                                     </div>
+
+
                                     <!--<img src="img/comments.png" alt="">-->
 
                                     <!--<div class="title_comment">
@@ -758,9 +778,12 @@
 
                             <div class="comment">
                                 <div class="comment_int">
-                                    <div class="circle_comment">
-                                        <h2>Fernanda</h2>
+                                    <div class="area_img_comment_2">
+                                        <div class="circle_comment">
+                                            <h2>Fernanda</h2>
+                                        </div>
                                     </div>
+
                                     <!--<img src="img/comments.png" alt="">-->
 
                                     <!--<div class="title_comment">
@@ -792,8 +815,8 @@
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24">
+                                        <svg style="fill:#ccc;" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
@@ -819,15 +842,6 @@
                                     <div class="circle_comment">
                                         <h2>Mario</h2>
                                     </div>
-                                    <!--<img src="img/comments.png" alt="">-->
-
-                                    <!--<div class="title_comment">
-                                        <h2>Rogerio</h2>
-                                    </div>-->
-
-                                    <!--<div class="title_comment">
-                                        <h2>LORENZO IPSOM</h2>
-                                    </div>-->
 
                                     <div class="area_stars">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -875,18 +889,11 @@
 
                             <div class="comment">
                                 <div class="comment_int">
-                                    <div class="circle_comment">
-                                        <h2>João</h2>
+                                    <div class="area_img_comment_4">
+                                        <div class="circle_comment">
+                                            <h2>João</h2>
+                                        </div>
                                     </div>
-                                    <!--<img src="img/comments.png" alt="">-->
-
-                                    <!--<div class="title_comment">
-                                        <h2>Rogerio</h2>
-                                    </div>-->
-
-                                    <!--<div class="title_comment">
-                                        <h2>LORENZO IPSOM</h2>
-                                    </div>-->
 
                                     <div class="area_stars">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -909,8 +916,8 @@
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24">
+                                        <svg style="fill:#ccc;" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
@@ -970,8 +977,8 @@
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24">
+                                        <svg style="fill:#ccc;" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24">
                                             <path
                                                 d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
                                         </svg>
@@ -1207,19 +1214,19 @@
                     </div>
 
                 </div>
-                
-    <section>
 
-        <div class="cobeli">
-            <div class="cobeli_int">
-                <div class="text_cobeli">
-                    <h2>Este produto é vendido originalmente por Cobeli</h2>
-                    <img src="img/header.png" alt="">
-                </div>
-            </div>
-        </div>
+                <section>
 
-    </section>
+                    <div class="cobeli">
+                        <div class="cobeli_int">
+                            <div class="text_cobeli">
+                                <h2>Este produto é vendido originalmente por Cobeli</h2>
+                                <img src="img/header.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
             </div>
 
 
@@ -1351,6 +1358,21 @@
                 </div>
             </div>
         </div>
+    </section>
+
+
+
+    <section id="area_float_buy">
+
+        <div class="area_float_buy">
+            <div class="area_float_buy_int">
+                <div class="float_buy">
+                  <h2></h2>
+                </div>
+            
+            </div>
+        </div>
+
     </section>
 
 
