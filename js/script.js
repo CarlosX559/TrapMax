@@ -68,47 +68,53 @@ function menu() {
 }
 menu();
 
-function gif() {
+function video() {
     $('.img_2_bg img').css('animation', '');
+    $('.armadilha_cheia').css('animation', '');
 
     setInterval(() => {
-        $('.img_2_bg img').css('animation', 'gif 400ms ease-in');
-        document.querySelector('.img_2_bg img').src = 'img/armadilhaCheia.gif';
-        $('.gif').css('max-width', '400px');
+        $('.img_2_bg img').css('animation', 'video 400ms ease-in').css('display', 'none');
+        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
+
+
+        $('.video_largura').css('max-width', '400px');
     }, 8000);
 
     setInterval(() => {
-        $('.img_2_bg img').css('animation', 'gif_2 400ms ease');
-        document.querySelector('.img_2_bg img').src = 'img/img_2.png';
-        $('.gif').css('max-width', '474px');
+        $('.img_2_bg img').css('animation', 'video 400ms ease-in').css('display', 'flex');
+        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
+
+
+        $('.video_largura').css('max-width', '474px');
     }, 16000);
 
     $('.img_2_bg_mobile img').css('animation', '');
 
     setInterval(() => {
-        $('.img_2_bg_mobile img').css('animation', 'gif 400ms ease-in');
-        document.querySelector('.img_2_bg_mobile img').src = 'img/armadilhaCheia.gif';
-        $('.gif_mobile').css('max-width', '360px');
+        $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'none');
+        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
+        $('.video_largura_mobile').css('max-width', '360px');
 
-        var largura = window.innerWidth;
+        
         if (largura <= 425) {
-            $('.gif_mobile').css('max-width', '300px');
+            $('.video_largura_mobile').css('max-width', '300px');
         }
 
     }, 8000);
 
     setInterval(() => {
-        $('.img_2_bg_mobile img').css('animation', 'gif_2 400ms ease');
-        document.querySelector('.img_2_bg_mobile img').src = 'img/img_2.png';
-        var largura = window.innerWidth;
+        $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'flex');
+        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
+
+       
         if (largura <= 425) {
-            $('.gif_mobile').css('max-width', '320px');
+            $('.video_largura_mobile').css('max-width', '320px');
         }
     }, 16000);
 
 
 }
-gif();
+video();
 
 var min_u = 10;
 var max_u = 30;
