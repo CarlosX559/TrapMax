@@ -113,6 +113,8 @@ function video() {
     }, 16000);
 
 
+    let player = document.querySelector('.armadilha_cheia');
+    player.controls = false;
 }
 video();
 
