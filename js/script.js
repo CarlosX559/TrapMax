@@ -92,29 +92,33 @@ function video() {
 
     setInterval(() => {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'none');
-        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
+        $('.armadilha_cheia_mobile').css('animation', 'video 400ms ease-in').css('display', 'flex');
         $('.video_largura_mobile').css('max-width', '360px');
 
         var largura = window.innerWidth;
         if (largura <= 425) {
-            $('.armadilha_cheia').css('width', '300px');
+            $('.armadilha_cheia_mobile').css('width', '300px');
+            $('.video_largura_mobile').css('max-width', '320px');
         }
 
     }, 8000);
 
     setInterval(() => {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'flex');
-        $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
+        $('.armadilha_cheia_mobile').css('animation', 'video 400ms ease-in').css('display', 'none');
 
         var largura = window.innerWidth;
         if (largura <= 425) {
-            $('.armadilha_cheia').css('width', '320px');
+            $('.armadilha_cheia_mobile').css('width', '320px');
         }
     }, 16000);
 
 
-    let player = document.querySelector('.armadilha_cheia');
+    var player = document.querySelector('.armadilha_cheia');
     player.controls = false;
+    var player_2 = document.querySelector('.armadilha_cheia_mobile');
+    player_2.controls = false;
+    
 }
 video();
 

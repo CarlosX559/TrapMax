@@ -120,6 +120,11 @@ nav ul li a {
     transform: translate(40px, -40px);
     border-radius: 100px 8px 8px 8px;
 }
+.armadilha_cheia_mobile {
+    display: none;
+    transform: translate(40px, -40px);
+    border-radius: 100px 8px 8px 8px;
+}
 
 @keyframes video {
 
@@ -1419,6 +1424,9 @@ footer {
         gap: 40px;
     }
     .armadilha_cheia {
+        transform: translate(20px, -20px);
+    }
+    .armadilha_cheia_mobile {
         transform: translate(20px, -20px);
     }
     .img_2_bg_mobile {
