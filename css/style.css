@@ -115,11 +115,13 @@ nav ul li a {
     width: 100%;
     max-width: 1280px;
 }
+
 .armadilha_cheia {
     display: none;
     transform: translate(40px, -40px);
     border-radius: 100px 8px 8px 8px;
 }
+
 .armadilha_cheia_mobile {
     display: none;
     transform: translate(40px, -40px);
@@ -1423,12 +1425,15 @@ footer {
         align-items: center;
         gap: 40px;
     }
+
     .armadilha_cheia {
         transform: translate(20px, -20px);
     }
+
     .armadilha_cheia_mobile {
         transform: translate(20px, -20px);
     }
+
     .img_2_bg_mobile {
         max-width: 360px;
         background-image: url(../img/bg_moscas.png);
@@ -1437,6 +1442,7 @@ footer {
         width: 100%;
         height: 560px;
     }
+
     .img_2_bg_mobile img {
         border-radius: 100px 8px 8px 8px;
         object-fit: contain;
@@ -1444,7 +1450,7 @@ footer {
         max-width: 474px;
         transform: translate(20px, -20px);
     }
-    
+
 
     .img_container_2_responsive img {
         width: 100%;
@@ -1824,7 +1830,12 @@ footer {
         z-index: 0;
         margin: 0px 0px 60px 0px;
     }
-
+    .float_buy h2 {
+        font-size: 14px;
+    }
+    .area_float_buy {
+        max-width: 250px;
+    }
     .area_left {
         padding: 20px 20px;
     }
@@ -1946,6 +1957,7 @@ footer {
     .info_texts p {
         font-size: 16px;
     }
+
     .img_2_bg_mobile {
         height: 500px;
     }
@@ -2043,6 +2055,7 @@ footer {
     .title_2 h2 {
         font-size: 22px;
     }
+
     .info_texts {
         max-width: 320px;
     }

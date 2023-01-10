@@ -77,7 +77,7 @@ function video() {
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
 
 
-        $('.video_largura').css('max-width', '400px');
+        $('.img_largura_largura').css('max-width', '400px');
     }, 8000);
 
     setInterval(() => {
@@ -85,7 +85,7 @@ function video() {
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
 
 
-        $('.video_largura').css('max-width', '474px');
+        $('.img_largura_largura').css('max-width', '474px');
     }, 16000);
 
     $('.img_2_bg_mobile img').css('animation', '');
@@ -93,12 +93,12 @@ function video() {
     setInterval(() => {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'none');
         $('.armadilha_cheia_mobile').css('animation', 'video 400ms ease-in').css('display', 'flex');
-        $('.video_largura_mobile').css('max-width', '360px');
+        $('.img_largura_mobile').css('max-width', '360px');
 
         var largura = window.innerWidth;
         if (largura <= 425) {
             $('.armadilha_cheia_mobile').css('width', '300px');
-            $('.video_largura_mobile').css('max-width', '320px');
+            $('.img_largura_mobile').css('max-width', '320px');
         }
 
     }, 8000);
