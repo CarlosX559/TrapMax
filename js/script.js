@@ -68,7 +68,7 @@ function menu() {
 }
 menu();
 
-function video() {
+/*function video() {
     $('.img_2_bg img').css('animation', '');
     $('.armadilha_cheia').css('animation', '');
 
@@ -120,7 +120,7 @@ function video() {
     player_2.controls = false;
     
 }
-video();
+video();*/
 
 var min_u = 10;
 var max_u = 30;

@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url(../fontes/Inter-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fontes/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fontes/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fontes/Inter-Bold.ttf);
+    font-weight: 700;
+}
 
 * {
     font-family: 'Inter';
@@ -1831,12 +1853,15 @@ footer {
         z-index: 0;
         margin: 0px 0px 60px 0px;
     }
+
     .float_buy h2 {
         font-size: 14px;
     }
+
     .area_float_buy {
         max-width: 250px;
     }
+
     .area_left {
         padding: 20px 20px;
     }
