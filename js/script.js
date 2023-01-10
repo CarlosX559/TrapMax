@@ -27,8 +27,8 @@ faq();
 function img_mobile() {
     var largura = window.innerWidth;
     if (largura <= 425) {
-        document.querySelector(".slide_desktop_1").src = 'img/banner_1_mobile.png';
-        document.querySelector(".slide_desktop_2").src = 'img/banner_2_mobile.png';
+        document.querySelector(".slide_desktop_1").src = 'img/banner_1_mobile.webp';
+        document.querySelector(".slide_desktop_2").src = 'img/banner_2_mobile.webp';
     }
 
 }
