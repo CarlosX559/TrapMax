@@ -95,9 +95,9 @@ function video() {
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
         $('.video_largura_mobile').css('max-width', '360px');
 
-        
+        var largura = window.innerWidth;
         if (largura <= 425) {
-            $('.video_largura_mobile').css('max-width', '300px');
+            $('.armadilha_cheia').css('width', '300px');
         }
 
     }, 8000);
@@ -106,9 +106,9 @@ function video() {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'flex');
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
 
-       
+        var largura = window.innerWidth;
         if (largura <= 425) {
-            $('.video_largura_mobile').css('max-width', '320px');
+            $('.armadilha_cheia').css('width', '320px');
         }
     }, 16000);
 
