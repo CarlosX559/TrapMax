@@ -23,6 +23,12 @@ function faq() {
 }
 
 faq();
+function teclaBlock(event) {
+    if(event.code == 'F12') {
+        event.preventDefault();
+    }
+}
+document.addEventListener('keydown', teclaBlock);
 
 function img_mobile() {
     var largura = window.innerWidth;
