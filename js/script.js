@@ -68,7 +68,7 @@ function menu() {
 }
 menu();
 
-/*function video() {
+function img() {
     $('.img_2_bg img').css('animation', '');
     $('.armadilha_cheia').css('animation', '');
 
@@ -77,7 +77,7 @@ menu();
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'flex');
 
 
-        $('.img_largura_largura').css('max-width', '400px');
+        $('.armadilha_cheia').css('max-width', '500px');
     }, 8000);
 
     setInterval(() => {
@@ -85,7 +85,7 @@ menu();
         $('.armadilha_cheia').css('animation', 'video 400ms ease-in').css('display', 'none');
 
 
-        $('.img_largura_largura').css('max-width', '474px');
+        $('.img_2_bg img').css('max-width', '474px');
     }, 16000);
 
     $('.img_2_bg_mobile img').css('animation', '');
@@ -93,34 +93,29 @@ menu();
     setInterval(() => {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'none');
         $('.armadilha_cheia_mobile').css('animation', 'video 400ms ease-in').css('display', 'flex');
-        $('.img_largura_mobile').css('max-width', '360px');
+        
 
-        var largura = window.innerWidth;
+        /*var largura = window.innerWidth;
         if (largura <= 425) {
             $('.armadilha_cheia_mobile').css('width', '300px');
             $('.img_largura_mobile').css('max-width', '320px');
-        }
+        }*/
 
     }, 8000);
 
     setInterval(() => {
         $('.img_2_bg_mobile img').css('animation', 'video 400ms ease-in').css('display', 'flex');
         $('.armadilha_cheia_mobile').css('animation', 'video 400ms ease-in').css('display', 'none');
-
+        /*
         var largura = window.innerWidth;
         if (largura <= 425) {
             $('.armadilha_cheia_mobile').css('width', '320px');
-        }
+        }*/
     }, 16000);
 
 
-    var player = document.querySelector('.armadilha_cheia');
-    player.controls = false;
-    var player_2 = document.querySelector('.armadilha_cheia_mobile');
-    player_2.controls = false;
-    
 }
-video();*/
+img();
 
 var min_u = 10;
 var max_u = 30;
